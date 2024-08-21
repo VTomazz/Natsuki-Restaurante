@@ -1,0 +1,42 @@
+.wp-block {} /*  (.wp-block {} ensures MT files load in Gutenberg editor) */
+
+/*= Home ====================== */
+
+/** Home >> Custom logo **/
+#ast-desktop-header .custom-logo {
+	margin-top: -30px !important;
+	margin-bottom: -20px !important;
+}
+
+/** Home >> Ast primary header bar **/
+#ast-desktop-header .ast-primary-header-bar {
+	height: 70px !important;
+}
+
+/** Home >> Ast grid center col layout **/
+#ast-desktop-header .ast-grid-center-col-layout {
+	padding-right: 10px !important;
+}
+
+/** Home >> Site header primary section right **/
+#ast-desktop-header .site-header-primary-section-right {
+	margin-top: -50px !important;
+}
+
+/** Home >> Ast custom button **/
+#ast-desktop-header .ast-custom-button {
+	box-shadow: 3px 3px 0 0 rgb(119, 110, 110) !important;
+	padding-top: 20px !important;
+	margin-top: 30px !important;
+}
+
+
+/*( < 768 )*/
+@media (max-width: 767.98px) {
+	/** Home >> Uagb image **/
+	#post-10 .wp-block-uagb-image {
+	height: 500px !important;
+}
+
+}
+

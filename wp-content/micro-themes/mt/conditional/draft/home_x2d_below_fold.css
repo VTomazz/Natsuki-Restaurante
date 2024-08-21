@@ -1,0 +1,20 @@
+.wp-block {} /*  (.wp-block {} ensures MT files load in Gutenberg editor) */
+
+/*= Home - below fold ========= */
+
+/** Home - below fold >> Group **/
+#block-27 .wp-block-group {
+	padding-left: 550px !important;
+}
+
+/** Home - below fold >> Has text align center **/
+#block-25 .has-text-align-center {
+	font-weight: 700 !important;
+}
+
+/** Home - below fold >> WP image 184 **/
+#post-10 .wp-image-184 {
+	padding-top: 150px !important;
+	margin-left: 170px !important;
+}
+
